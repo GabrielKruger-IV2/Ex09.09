@@ -1,5 +1,5 @@
 $("#i1").change(function () {
-    if (this.value != "A" || this.value == "a" || this.value == "C" || this.value == "c" || this.value == "G" || this.value == "G" || this.value == "T" || this.value == "t") {
+    if (this.value != "A" || this.value != "a" || this.value !="C" || this.value != "c" || this.value != "G" || this.value != "G" || this.value !="T" || this.value != "t") {
         $("#p1").text("")
         $("#p1").append("Digite uma proteina valida")
     }
@@ -20,7 +20,7 @@ $("#i1").change(function () {
 })
 
 $("#i2").change(function () {
-    if (this.value != "A" || this.value == "a" || this.value == "C" || this.value == "c" || this.value == "G" || this.value == "G" || this.value == "T" || this.value == "t") {
+    if (this.value != "A" || this.value!= "a" || this.value !="C" || this.value != "c" || this.value != "G" || this.value != "G" || this.value != "T" || this.value != "t") {
         $("#p2").text("")
         $("#p2").append("Digite uma proteina valida")
     }
@@ -41,7 +41,7 @@ $("#i2").change(function () {
 })
 
 $("#i3").change(function () {
-    if (this.value != "A" || this.value == "a" || this.value == "C" || this.value == "c" || this.value == "G" || this.value == "G" || this.value == "T" || this.value == "t") {
+    if (this.value != "A" || this.value != "a" || this.value != "C" || this.value !="c" || this.value != "G" || this.value != "G" || this.value != "T" || this.value != "t") {
         $("#p3").text("")
         $("#p3").append("Digite uma proteina valida")
     }
@@ -62,7 +62,7 @@ $("#i3").change(function () {
 })
 
 $("#i4").change(function () {
-    if (this.value != "A" || this.value == "a" || this.value == "C" || this.value == "c" || this.value == "G" || this.value == "G" || this.value == "T" || this.value == "t") {
+    if (this.value != "A" || this.value != "a" || this.value != "C" || this.value!="c" || this.value !="G" || this.value != "G" || this.value != "T" || this.value!= "t") {
         $("#p4").text("")
         $("#p4").append("Digite uma proteina valida")
     }
